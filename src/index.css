@@ -72,3 +72,37 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+.container {
+  content: '';
+  background-image: url('/public/Images/background-home-desktop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1em;
+  padding-left: 2em;
+}
+
+ul {
+  display: flex;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+  padding-right: 5em;
+  height: 3em;
+  align-items: center;
+}
+
+ol {
+  cursor: pointer;
+}
+
+ol:hover {
+  text-decoration: underline;
+}
